@@ -26,7 +26,7 @@ This project is to build CentOS 5 image by kickstart on KVM for Google Cloud(gce
 >sudo virt-install --name gce-centos-5.11-core \
      --ram 1024 --vcpus=2 --os-variant=rhel5 \
      --location=http://mirror.optus.net/centos/5/os/x86_64/  \
-     --extra-args="ks=http://mybuild-host/centos5-ks/gce-core-ks5.cfg" \
+     --extra-args="ks=http://localhost/centos5-ks/gce-core-ks5.cfg" \
      --disk path=/var/lib/libvirt/images/disk.raw,size=10,format=raw,bus=virtio \
      --bridge=br0,model=virtio 
 
