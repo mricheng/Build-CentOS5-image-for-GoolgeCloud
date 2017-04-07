@@ -9,7 +9,7 @@ This project is to build CentOS 5 image by kickstart on KVM for Google Cloud(gce
 
 >sudo mkdir /var/www/html/centos5-ks
 
->sudo cp ickstart-cfg/* /var/www/html/centos5-ks
+>sudo cp kickstart-cfg/* /var/www/html/centos5-ks
 
 >sudo mkdir /var/www/html/centos5-cloud
 
